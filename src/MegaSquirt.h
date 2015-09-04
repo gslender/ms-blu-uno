@@ -34,7 +34,7 @@ public:
     void requestSignature();
     
 private:
-    byte data[400];
+    byte data[4];
     int runCommand(byte cmd[], byte cmdLength,  byte data[], byte dataLength);
 };
 
