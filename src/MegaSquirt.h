@@ -20,6 +20,8 @@ class MegaSquirt {
 public:
     
     MegaSquirt();
+    void process(int);
+
     byte getEngine();
     unsigned int getRpm();
     float getMap();

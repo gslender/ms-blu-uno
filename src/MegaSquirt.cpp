@@ -7,6 +7,11 @@
 MegaSquirt::MegaSquirt() {
 }
 
+
+void process(int) {
+
+}
+
 byte MegaSquirt::getEngine() {
 	return data[offset + 11];
 }
